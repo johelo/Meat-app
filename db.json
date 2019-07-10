@@ -370,5 +370,79 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "address": "Av. Rudge",
+      "number": "810",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "capp"
+        },
+        {
+          "quantity": 1,
+          "menuId": "espreso"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "address": "Sérgio Tomaz",
+      "number": "740",
+      "optionalAddress": "4º andar",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "sunday"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "address": "Rua Carandaí",
+      "number": "645",
+      "optionalAddress": "ap 82 B",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "fries"
+        },
+        {
+          "quantity": 1,
+          "menuId": "burger"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "address": "Rua Adolfo Gordo",
+      "number": "75",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 3,
+          "menuId": "cup"
+        },
+        {
+          "quantity": 1,
+          "menuId": "straw"
+        }
+      ],
+      "id": 7
+    }
+  ]
 }
